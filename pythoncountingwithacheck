@@ -1,0 +1,13 @@
+start_num = 2
+end_num = 15
+count_by = 3
+
+result = start_num
+
+if start_num > end_num:
+    result = "Oops! Looks like your start value is greater than the end value.  Please try again."
+else:
+    while result < end_num:
+        result = result + count_by
+    
+print(result)
