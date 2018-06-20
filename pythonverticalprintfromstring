@@ -1,0 +1,8 @@
+print_str = "Water falls"
+
+i = 0
+
+while i < len(print_str):
+    print(print_str[i])
+    i += 1 
+        
